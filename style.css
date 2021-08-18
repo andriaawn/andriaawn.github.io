@@ -36,3 +36,16 @@ body {
   background-color: #EEEEEE;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #iframe {
+    width: 70%;
+  }
+  .h2 {
+    font-size: larger;
+  }
+}

@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
-  background-image: url('radio4.jpg');
-  background-size: 100% auto;
+  background-image: url('radio.jpg');
+  background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* background-size: 1200px; */
+
+  /* background-size: 100%;
+  height: auto;
+  background-repeat: no-repeat; */
 }
 
 #iframe {
